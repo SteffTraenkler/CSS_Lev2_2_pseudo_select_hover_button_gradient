@@ -24,13 +24,10 @@ li:last-child{
 p:first-child{
     color: #999;
 }
-section p{
+section p:not(:last-child){
     font-size: 26px;
 }
 
-p:last-of-type{
-    font-size: medium;
-}
 
 p:nth-of-type(2n){
     color: #0277bd;
